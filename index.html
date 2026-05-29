@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Unathi — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Unathi.</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">👋 Hey there, I am</p>
+      <h1 class="hero-name">Unathi Siganeko</h1>
+      <p class="hero-role">
+        Software Engineering Student at
+        <span class="highlight">WeThinkCode</span>
+      </p>
+      <p class="hero-bio">
+        I love turning ideas into real things clean, functional, and (hopefully) a bit beautiful.
+        I'm still learning, still growing, and always building.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-outline">Let's talk</a>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="avatar-blob">
+        <!-- ✏️ Replace this with an <img src="your-photo.jpg" alt="Unathi"> if you have a photo -->
+        <div class="avatar-initials">U</div>
+      </div>
+      <div class="blob-ring blob-ring-1"></div>
+      <div class="blob-ring blob-ring-2"></div>
+    </div>
+  </section>
+
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">About me</span>
+        <h2>A bit about who I am</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <!--
+            ✏️ EDIT THIS — Write your own story here. Be yourself!
+          -->
+          <p>
+            I'm a software engineering student at <strong>WeThinkCode_</strong>, one of South Africa's
+            most exciting coding schools. Every day I get to work on real problems with real people
+            and honestly, I love it.
+          </p>
+          <p>
+            I started coding because I wanted to build things. Now I can't stop. I'm drawn to the
+            full stack from crafting a smooth UI to wiring up a solid back-end. I care about
+            writing code that is readable and maintainable, not just code that works.
+          </p>
+          <p>
+            Outside of code I'm curious about design, music, and how technology can genuinely
+            make people's lives better.
+          </p>
+
+          <div class="about-quote">
+            "I'm not just studying software engineering, I'm living it."
+          </div>
+        </div>
+
+        <div class="about-cards reveal">
+          <!--
+            ✏️ EDIT THESE NUMBERS to match your real experience
+          -->
+          <div class="info-card">
+            <span class="info-icon">🏫</span>
+            <div>
+              <strong>WeThinkCode_</strong>
+              <p>Current institution, Johannesburg</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">💻</span>
+            <div>
+              <strong>5+ Projects</strong>
+              <p>Built and shipped</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">📍</span>
+            <div>
+              <strong>South Africa</strong>
+              <p>Based in Johannesburg</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <span class="info-icon">🎯</span>
+            <div>
+              <strong>Open to opportunities</strong>
+              <p>Internships & collaborations</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Skills</span>
+        <h2>What I work with</h2>
+        <p class="section-sub">Still learning, always growing.</p>
+      </div>
+
+      <div class="skills-grid reveal">
+        
+        <div class="skill-card">
+          <div class="skill-icon">🐍</div>
+          <h3>Python</h3>
+          <p>My most comfortable language. I use it for back-end, scripting, and data work.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🌐</div>
+          <h3>JavaScript</h3>
+          <p>Building interactive front-ends and experimenting with Node.js on the server.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">☕</div>
+          <h3>Java</h3>
+          <p>OOP fundamentals, data structures, and system design projects at WeThinkCode_.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>HTML & CSS</h3>
+          <p>Turning designs into clean, responsive, accessible web pages.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🗄️</div>
+          <h3>SQL / Databases</h3>
+          <p>PostgreSQL and SQLite for managing and querying data in my projects.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🔧</div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, collaboration, pull requests — it's part of my daily workflow.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🐧</div>
+          <h3>Linux</h3>
+          <p>Comfortable on the command line. I do most of my work in a Linux environment.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">⚗️</div>
+          <h3>Flask / Django</h3>
+          <p>Building REST APIs and web apps with Python frameworks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Projects</span>
+        <h2>Things I've built</h2>
+        <p class="section-sub">
+          A collection of projects from personal experiments, and things I built just for fun.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        
+
+        <article class="project-card reveal" data-index="01">
+          <div class="project-top">
+            <span class="project-number">01</span>
+            <div class="project-links-top">
+              <a href="https://github.com/Unathi5455" target="_blank" aria-label="GitHub" class="icon-link">
+                <!-- GitHub icon -->
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </a>
+              
+            </div>
+          </div>
+          <h3 class="project-title">Robot Worlds</h3>
+          <p class="project-desc">
+            A multi-client robot simulation game. Robots navigate a shared world, avoid obstacles,
+            and communicate over a TCP server–client setup. Built as a team project at WeThinkCode_.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">TCP/IP</span>
+            <span class="tag">Networking</span>
+            <span class="tag">OOP</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-index="02">
+          <div class="project-top">
+            <span class="project-number">02</span>
+            <div class="project-links-top">
+              <a href="https://github.com/Unathi5455" target="_blank" aria-label="GitHub" class="icon-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Student Management System</h3>
+          <p class="project-desc">
+            A full CRUD web app for managing student records. Includes user authentication,
+            a relational database, and a clean, responsive interface.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">HTML/CSS</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal" data-index="03">
+          <div class="project-top">
+            <span class="project-number">03</span>
+            <div class="project-links-top">
+              <a href="https://github.com/Unathi5455" target="_blank" aria-label="GitHub" class="icon-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Todo CLI App</h3>
+          <p class="project-desc">
+            A command-line task manager with persistent JSON storage.
+            Supports priorities, due dates, and filtered views — all from your terminal.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">CLI</span>
+            <span class="tag">JSON</span>
+          </div>
+        </article>
+
+        <!-- ✏️ PASTE YOUR NEW PROJECTS BELOW THIS LINE -->
+
+      </div>
+
+      <div class="projects-footer reveal">
+        <p>More on the way — I'm always building something new.</p>
+        <a href="https://github.com/Unathi5455" target="_blank" class="btn btn-outline">
+          See GitHub →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Contact</span>
+        <h2>Let's connect</h2>
+        <p class="section-sub">
+          Whether it's a project idea, an internship opportunity, or just a chat — I'm always happy to hear from you.
+        </p>
+      </div>
+
+      <div class="contact-grid reveal">
+        <!--
+          ✏️ EDIT THESE — Replace with your actual email, LinkedIn, GitHub username, etc.
+        -->
+        <a href="siganekounathi929@gmail.com"  target="_blank" class="contact-card">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <strong>Email</strong>
+            <p>siganekounathi929@gmail.com</p>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+        <a href="https://github.com/Unathi5455" target="_blank" class="contact-card">
+          <span class="contact-icon">💻</span>
+          <div>
+            <strong>GitHub</strong>
+            <p>github.com/Unathi5455</p>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+        <a href="www.linkedin.com/in/unathi-siganeko-3552ba250" target="_blank" class="contact-card">
+          <span class="contact-icon">💼</span>
+          <div>
+            <strong>LinkedIn</strong>
+            <p>linkedin.com/in/your-profile</p>
+          </div>
+          <span class="contact-arrow">→</span>
+        </a>
+
+
+      </div>
+
+      <div class="contact-note reveal">
+        <p>I am based in <strong>Johannesburg, South Africa</strong> 🇿🇦 and open to remote opportunities too.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Built by <strong>Unathi</strong> · 2024</p>
+      <a href="#home" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
